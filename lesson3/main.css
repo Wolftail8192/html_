@@ -1,0 +1,63 @@
+.front_up{
+    display: flex;
+}
+.front_right{
+    margin-left:50px;
+}
+.pp {
+    font-size: 25px;
+    background: palegreen;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.x1{
+    text-align: center;
+}
+.x2{
+
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    display:block;
+    margin:0 auto;
+    border: 5px solid red;
+    border-radius: 25%;
+}
+.midle{
+    background: cornflowerblue;
+}
+.px{
+    background: chartreuse;
+    font-size: 20px;
+    width: 200px;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_1{
+    display: flex;
+    margin: 20px;
+}
+.box_2{
+    display: flex;
+    margin: 20px;
+}
+.box{
+    background: aqua;
+}
+/*.q1{*/
+/*    width: 50%;*/
+/*}*/
+/*.q2{*/
+/*    width: 50%;*/
+/*}*/
+/*.q3{*/
+/*    width: 50%;*/
+
+/*}*/
+/*.q4{*/
+/*    width: 50%;*/
+/*}*/
