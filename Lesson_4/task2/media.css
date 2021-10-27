@@ -1,88 +1,119 @@
-@media screen and (max-width: 340px){
-    .task2{
+@media screen and (max-width: 340px) {
+    .task2 {
         width: 340px;
     }
-    .header{
+
+    .header {
         background: blueviolet;
-        justify-content:center;
+        justify-content: center;
     }
-    .head{
+
+    .head {
         background: cyan;
         justify-content: center;
     }
-    .head_l{
-       justify-content: start;
-    }
-    .head_r{
+
+    .head_l {
         justify-content: start;
     }
-    .he{
+
+    .head_r {
+        justify-content: start;
+    }
+
+    .he {
         background: blueviolet;
         height: 80px;
     }
-    .he5{
+
+    .he5 {
         justify-content: center;
         margin-left: 140px;
     }
-    .center{
+
+    .center {
         background: cyan;
+
     }
-    .cent{
+    .center_radius_foot{
+        /*flex-direction: column;*/
+    }
+
+    .cent {
         background: blueviolet;
     }
-    .ce{
-        background:cyan ;
+
+    .ce {
+        background: cyan;
 
     }
-    .ce2_l{
+
+    .ce2_l {
         width: 25%;
         height: 200px;
         background: gray;
         margin-left: 18px;
     }
-    .ce2_c{
+
+    .ce2_c {
         width: 25%;
         height: 200px;
         background: gray;
     }
-    .ce2_r{
+
+    .ce2_r {
         width: 25%;
         height: 200px;
         background: gray;
     }
-    .ce2_l_center p, .ce2_c_center p, .ce2_r_center p{
+
+    .ce2_l_center p, .ce2_c_center p, .ce2_r_center p {
         font-size: 7px;
     }
-    .ce2_l_foot_r, .ce2_c_foot_r, .ce2_r_foot_r{
+
+    .ce2_l_foot_r, .ce2_c_foot_r, .ce2_r_foot_r {
         margin-left: 10px;
     }
 
 
-    .ce3_l{
+    .ce3_l {
         width: 25%;
         height: 200px;
         background: gray;
         margin-left: 18px;
     }
-    .ce3_c{
+
+    .ce3_c {
         width: 25%;
         height: 200px;
         background: gray;
     }
-    .ce3_r{
+
+    .ce3_r {
         width: 25%;
         height: 200px;
         background: gray;
     }
-    .ce3_l_center p, .ce3_c_center p, .ce3_r_center p{
+
+    .ce3_l_center p, .ce3_c_center p, .ce3_r_center p {
         font-size: 7px;
     }
-    .ce3_l_foot_r, .ce3_c_foot_r, .ce3_r_foot_r{
+
+    .ce3_l_foot_r, .ce3_c_foot_r, .ce3_r_foot_r {
         margin-left: 10px;
     }
-    .ce4_1{
+
+    .ce4_1 {
         margin-left: 30px;
 
+    }
 
+}
+@media (orientation: landscape){
 
+}
+@media screen and (min-width: 300px){
+    .center{
+        flex-direction: column;
+    }
 }
