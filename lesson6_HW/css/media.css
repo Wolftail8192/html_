@@ -1,4 +1,4 @@
-@media screen and(max-width:400px){
+@media screen and (max-width:400px){
     .header__menu{
             display: none;
     }
@@ -27,4 +27,51 @@
     .header__title p::after{
         display: none;
     }
+    .header__box{
+
+
+    }
+    .box__l{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #2C2C2C;
+        padding-top: 35px;
+        background: #FFFFFF;
+        box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+
+        width: 290px;
+        height: 276px;
+        left: 15px;
+        top: 130px;
+    }
+    .box__c{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #2C2C2C;
+        padding-top: 35px;
+        background: #FFFFFF;
+        box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+
+        width: 290px;
+        height: 276px;
+        left: 15px;
+        top: 430px;
+    }
+    .box__r{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #2C2C2C;
+        padding-top: 35px;
+        background: #FFFFFF;
+        box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+
+        width: 290px;
+        height: 276px;
+        left: 15px;
+        top: 730px;
+    }
+
 }

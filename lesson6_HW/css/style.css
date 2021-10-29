@@ -168,7 +168,7 @@ table {
   border-radius: 50px;
 }
 .header__box{
-display: flex;
+  display: flex;
   justify-content: center;
   position: absolute;
 
