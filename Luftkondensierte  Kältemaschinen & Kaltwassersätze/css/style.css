@@ -1,0 +1,130 @@
+.df{
+    display: flex;
+}
+.wrapper{
+    width: 1442px;
+    height: 6352px;
+    background: white;
+}
+.header{
+    column-gap: 135px;
+    margin-top: 4px;
+}
+.logo{
+    margin-left: 121px;
+}
+.nav{
+    margin-left: 135px;
+}
+button{
+    border: none;
+    background: white;
+}
+.Über, .Peripherietechnik, .Dienstleistungen, .Klimatechnik, .Kontakt, .Presse{
+    font-size: 17px;
+    line-height: 20px;
+    /* or 118% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #45494F;
+
+
+}
+.Produkte{
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #2E75FF;
+}
+.Peripherietechnik{
+
+}
+.Dienstleistungen{
+
+}
+.Klimatechnik{
+
+
+}
+.Kontakt{
+
+}
+.Presse{
+
+}
+.box1_l{
+
+}
+h1{
+    margin-top: 103px;
+    margin-left: 118px;
+}
+.box1_l_h1{
+    width: 515px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+.box1_l_p{
+    width: 515px;
+    height: 216px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-left: 121px;
+}
+.box1_l p{
+    margin-top: 226px;
+}
+.box1_r{
+    margin-left: 41px;
+}
+.box3_r{
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+.box3_r_h2{
+    margin: 151px 376px 22px 151px;
+}
+.box3_r_h2 h2{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+}
+.box3_r_p{
+    margin: 22px 217px 119px 187px;
+}
+.box3_r_p p{
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+
+}
+.box4_l_h2{
+    margin: 91px 49px 61px 121px;
+}
+.box4_l_h2 h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+
+}
+.box4_l_p{
+    margin: 61px 0 4px 122px;
+}
+.box4_r{
+    width: 1108px;
+    height: 889px;
+    /*position: absolute;*/
+}
