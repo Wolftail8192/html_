@@ -1,3 +1,9 @@
+
+.box {
+ ...
+ align-items: flex-start;
+ }
+
 @media screen and (max-width: 320px){
     .wrapper{
         width: 320px;
@@ -139,6 +145,12 @@
         height: 145px;
         margin: 150px 0 0 20px;
     }
+    .tools_boxes .box2{
+        width: 250px;
+        height: 145px;
+        margin: 15px 0 0 20px;
+    }
+
     .box1_center_l .img{
         width: 48px;
     }
@@ -148,8 +160,525 @@
     .box1_center_r{
         font-size: 8px;
     }
-
-
-
+    .tushka2 .tools_boxes .box1 .box1_center .box1_center_l img{
+        width: 58px;
 
     }
+    .tushka2 .tools_boxes .box2 .box2_center .box2_center_l img{
+        width: 58px;
+
+    }
+    .tushka2 .tools_boxes .box1 .box1_top h2{
+        font-size: 12px;
+
+    }
+    .tushka2 .tools_boxes .box2 .box2_top h2{
+        font-size: 12px;
+
+    }
+    .tushka2 .tools_boxes .box1 .box1_foot .l{
+        font-size: 14px;
+        width: 46px;
+        height: 16px;
+        margin: -15px 30px 0 90px;
+
+    }
+    .tushka2 .tools_boxes .box1 .box1_foot .r{
+        font-size: 10px;
+        width: 38px;
+        height: 14px;
+        margin: -15px 30px 0 0;
+
+    }
+
+    body > div > div.tushka2.df > div.tools_boxes > div.box1 > div.box1_foot.df > button{
+        width: 32px;
+        height: 32px;
+        margin: -25px;
+    }
+
+    .tushka2 .tools_boxes .box2 .box2_foot .l{
+        font-size: 14px;
+        width: 46px;
+        height: 16px;
+        margin: -15px 30px 0 90px;
+
+    }
+    .tushka2 .tools_boxes .box2 .box2_foot .r{
+        font-size: 10px;
+        width: 38px;
+        height: 14px;
+        margin: -15px 30px 0 0;
+
+    }
+    body > div > div.tushka2.df > div.tools_boxes > div.box2 > div.box2_foot.df > button{
+        width: 32px;
+        height: 32px;
+        margin: -25px;
+    }
+    body > div > div.tushka3 > div > div{
+        width: 250px;
+        height: 126px;
+        margin-left: -255px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(1){
+        width: 250px;
+        height: 126px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(1) > div > div.card1_l > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(1) > div > div.card1_l > p{
+        font-size: 10px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(1) > div > div.card1_l > button{
+        width: 72px;
+        height: 24px;
+        font-size: 12px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(1) > div > div.card1_r > img{
+        width: 74px;
+        height: 97px;
+        margin-left: 10px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(2) > div > div.card2_l > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(2) > div > div.card2_l > p{
+        font-size: 10px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(2) > div > div.card2_l > button{
+        font-size: 12px;
+        width: 72px;
+        height: 24px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(2) > div > div.card2_r > img{
+        width: 74px;
+        margin-left: 60px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(2){
+        width: 250px;
+        height: 126px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(3){
+        width: 250px;
+        height: 126px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(3) > div > div.card3_l > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(3) > div > div.card3_l > p{
+        font-size: 10px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(3) > div > div.card3_l > button{
+        font-size: 10px;
+        width: 72px;
+        height: 24px;
+    }
+    body > div > div.tushka3 > div > div > div:nth-child(3) > div > div.card3_r > img{
+        width: 74px;
+        height: 97px;
+        margin-left: 60px;
+    }
+    body > div > div.tushka4{
+        display: table-caption;
+    }
+    body > div > div.tushka4 > button.btn1{
+        font-size: 14px;
+        margin: 10px;
+        width: 164px;
+        height: 36px;
+    }
+    body > div > div.tushka4 > button.btn2{
+        font-size: 14px;
+        margin: 10px;
+        width: 82px;
+        height: 36px;
+    }
+    body > div > div.tushka4 > button.btn3{
+        font-size: 14px;
+        margin: 10px;
+        width: 156px;
+        height: 36px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l{
+        width: 138px;
+        height: 266px;
+        margin-left: -260px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_1 > img{
+        width: 149px;
+        height: 127px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_2.df > img{
+        width: 12px;
+        height: 12px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_2.df > p.l{
+        width: 15px;
+        height: 12px;
+        font-size: 10px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_3 > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_4.df > p.l{
+        font-size: 12px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_4.df > p.r{
+        font-size: 12px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_5.df{
+        width: 115px;
+        height: 35px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_2.df > p.r{
+        width: 55px;
+        height: 12px;
+        font-size: 10px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_5.df{
+        width: 115px;
+        height: 35px;
+
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_5.df > button{
+        font-size: 10px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_5.df > img.l{
+        width: 12px;
+        height: 12px;
+        margin-left: 120px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5l > div.tushka5_5.df > img.r{
+        width: 12px;
+        height: 12px;
+        margin-left: -10px;
+    }
+    body > div > div.tushka8 > h2{
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    body > div > div.tushka8 > img{
+        display: none;
+    }
+    body > div > div.tushka9.df > div.box1 > img{
+        width: 58px;
+        height: 33px;
+
+    }
+    body > div > div.tushka9.df > div.box1 > h2{
+        font-size: 14px;
+    }
+    body > div > div.tushka9.df > div.box1 > p{
+        font-size: 12px;
+    }
+    body > div > div.tushka9.df > div.box1{
+        margin: 30px;
+    }
+    body > div > div.tushka9.df > div.box2 > img{
+        width: 58px;
+        height: 33px;
+    }
+    body > div > div.tushka9.df > div.box2 > h2{
+        font-size: 14px;
+    }
+    body > div > div.tushka9.df > div.box2 > p{
+        font-size: 12px;
+    }
+    body > div > div.tushka9.df > div.box3 > img{
+        width: 58px;
+        height: 33px;
+    }
+    body > div > div.tushka9.df > div.box3 > h2{
+        font-size: 14px;
+    }
+    body > div > div.tushka9.df > div.box3 > p{
+        font-size: 12px;
+    }
+    body > div > div.tushka9.df > div.box4 > img{
+        width: 58px;
+        height: 33px;
+    }
+    body > div > div.tushka9.df > div.box4 > h2{
+        font-size: 14px;
+    }
+    body > div > div.tushka9.df > div.box4 > p{
+        font-size: 12px;
+    }
+    body > div > div.tushka7 > button{
+        margin: 25px;
+        font-size: 12px;
+        width: 160px;
+        height: 34px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5rc{
+        display: none;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5r{
+        display: none;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6rc{
+        display: none;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6r{
+        display: none;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_1 > img{
+        width: 149px;
+        height: 127px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_2.df > img{
+        width: 12px;
+        height: 12px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_2.df > p.l{
+        font-size: 10px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_2.df > p.r{
+        font-size: 10px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_3 > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_4.df > p.l{
+        font-size: 12px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_4.df > p.r{
+        font-size: 12px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_3 > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc{
+        margin-left: 15px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_3 > h2{
+        width: 138px;
+        height: 45px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_5.df{
+        width: 115px;
+        height: 35px;
+        font-size: 10px;
+
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_5.df > button{
+        font-size: 10px;
+        width: 112px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_5.df > img.l{
+        width: 110px;
+        height: 35px;
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_5.df > img.l{
+        margin-left: 125px;
+        width: 12px;
+        height: 12px;
+
+    }
+    body > div > div.tushka5.df > div.wrap_tushka5lc > div.tushka5_5.df > img.r{
+        width: 12px;
+        height: 12px;
+        margin-left: -12px;
+    }
+
+
+
+
+
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_1 > img{
+        width: 149px;
+        height: 127px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_2.df > img{
+        width: 12px;
+        height: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_2.df > p.l{
+        font-size: 10px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_2.df > p.r{
+        font-size: 10px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_3 > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_4.df > p.l{
+        font-size: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_4.df > p.r{
+        font-size: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_3 > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc{
+        margin-left: 15px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_3 > h2{
+        width: 138px;
+        height: 45px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_5.df{
+        width: 115px;
+        height: 35px;
+        font-size: 10px;
+
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_5.df > button{
+        font-size: 10px;
+        width: 112px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_5.df > img.l{
+        width: 110px;
+        height: 35px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_5.df > img.l{
+        margin-left: 125px;
+        width: 12px;
+        height: 12px;
+
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_5.df > img.r{
+        width: 12px;
+        height: 12px;
+        margin-left: -12px;
+    }
+
+
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_1 > img{
+        width: 149px;
+        height: 127px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_2.df > img{
+        width: 12px;
+        height: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_2.df > p.l{
+        font-size: 10px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_2.df > p.r{
+        font-size: 10px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_3 > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_4.df > p.l{
+        font-size: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_4.df > p.r{
+        font-size: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_3 > h2{
+        font-size: 12px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l{
+        margin-left: 15px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_3 > h2{
+        width: 138px;
+        height: 45px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_5.df{
+        width: 115px;
+        height: 35px;
+        font-size: 10px;
+
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_5.df > button{
+        font-size: 10px;
+        width: 112px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_5.df > img.l{
+        width: 110px;
+        height: 35px;
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_5.df > img.l{
+        margin-left: 125px;
+        width: 12px;
+        height: 12px;
+
+    }
+    body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_5.df > img.r{
+        width: 12px;
+        height: 12px;
+        margin-left: -12px;
+    }
+    body > div > div.tushka6.df{
+        margin-left: -10px;
+    }
+    body > div > div.footer{
+        width: 320px;
+        height: 1400px;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_l.df{
+        margin-left: 10px;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_l.df > div.fbox1{
+        margin-left: -285px;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_l.df > div.fbox2{
+        padding: 0;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_l.df > div.fbox3{
+        padding: 0;
+    }
+    body > div > div.footer > div.footer_end > p{
+        font-size: 10px;
+    }
+    body > div > div.footer > div.footer_top.df{
+    display: block;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_l.df{
+        display: block;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_r{
+        margin-left: -125px;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_r > div.footer_top_r_one.df{
+        display: block;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_r > div.footer_top_r_two.df{
+        display: block;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_r > div.footer_top_r_four > button{
+        margin-left: 137px;
+        border-radius: 5px;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_r > div.footer_top_r_five{
+        margin-left: 160px;
+        display: flex;
+    }
+    body > div > div.footer > div.footer_end{
+        display: inline;
+    }
+    body > div > div.footer > div.footer_top.df > div.footer_top_r > div.footer_top_r_five > img:nth-child(1){
+        margin-left: -366px;
+    }
+    body > div > div.tushka9.df{
+        display: block;
+        width: 320px;
+        height: 500px;
+    }
+    body > div > div.tushka9.df > div.box2{
+        margin: 237px 0 0 32px;
+    }
+    body > div > div.tushka9.df > div.box3{
+        margin: 401px 0 0 32px;
+    }
+    body > div > div.tushka9.df > div.box4{
+        margin: 618px 0 0 32px;
+    }
+    body > div > div.tushka1 > div.tushka1_foot.df > div.foot_button1 > img{
+        margin: 40px -296px 20px 250px;
+    }
+    body > div > div.tushka1 > div.tushka1_top.df > div.tushka1_top4.df{
+        margin-left: -135px;
+    }
+
+
+
+
+
+}
