@@ -541,9 +541,10 @@
 
     }
     body > div > div.tushka6.df > div.wrap_tushka6lc > div.tushka6_5.df > img.r{
-        width: 12px;
-        height: 12px;
-        margin-left: -12px;
+        /*width: 12px;*/
+        /*height: 12px;*/
+        /*margin-left: -12px;*/
+        display: none;
     }
 
 
@@ -601,9 +602,10 @@
 
     }
     body > div > div.tushka6.df > div.wrap_tushka6l > div.tushka6_5.df > img.r{
-        width: 12px;
-        height: 12px;
-        margin-left: -12px;
+        /*width: 12px;*/
+        /*height: 12px;*/
+        /*margin-left: -12px;*/
+        display: none;
     }
     body > div > div.tushka6.df{
         margin-left: -10px;
@@ -675,6 +677,18 @@
     }
     body > div > div.tushka1 > div.tushka1_top.df > div.tushka1_top4.df{
         margin-left: -135px;
+    }
+    body > div > div.tushka1 > div.tushka1_top.df > div.tushka1_top4.df{
+        margin: 46px 0 120px -135px;
+    }
+    body > div > div.tushka1 > div.tushka1_top.df > div.tushka1_top5 > div > p.up{
+        margin: 10px 0 0 -135px;
+    }
+    body > div > div.tushka1 > div.tushka1_top.df > div.tushka1_top5 > div > p.down{
+        margin: 28px 0 0 -135px;
+    }
+    body > div > div.tushka3{
+        width: 290px;
     }
 
 
